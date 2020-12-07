@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.app-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-div {
+  display: flex;
+  justify-content: center;
+}
+
+.follower-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.user-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2%;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 50%;
+  background-color: aquamarine;
+}
+
+.follower-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 2%;
+  border-radius: 25px;
+  border: 2px solid black;
+  width: 30%;
+  background-color: aquamarine;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}
+
+.img-div {
+  margin: 2%;
+}
+
+#userImg {
+  height: 300px;
+  width: 300px
+}
+
+.card-text {
+  margin: 0 auto;
+  height: 50%;
+}
