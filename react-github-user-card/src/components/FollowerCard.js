@@ -14,7 +14,7 @@ const FollowerCard = (props) => {
                             <h2>{follower.login}</h2>
                             <a href={follower.html_url}>{follower.html_url}</a>
                             <p>Followers: {follower.followers_url.length}</p>
-                            <p>Following: {followers.following_url.length}</p>
+                            <p>Following: {follower.following_url.length}</p>
                         </div>
                     </div>
                 )
